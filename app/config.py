@@ -9,7 +9,7 @@ class Settings:
     GROQ_MODEL = "openai/gpt-oss-120b"
     
     QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
-    QDRANT_CLUSTER_ENDPOINT = os.getenv("QDRANT_CLUSTER_ENDPOINT")
+    QDRANT_URL = os.getenv("QDRANT_CLUSTER_ENDPOINT")
     QDRANT_COLLECTION = "advance_rag"
 
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
